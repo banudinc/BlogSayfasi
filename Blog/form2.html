@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogy. Kayıt Formu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+          input[type=text],select{
+            width: 40%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: solid 1px black;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+
+          input[type=date],select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: solid 1px black;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+
+          input[type=email],select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: solid 1px black;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+
+          input[type=password],select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: solid 1px black;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+
+
+          input[type=submint]{
+            width: 100%;
+            background-color: #2b4450;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius:4px ;
+            cursor: pointer;
+            text-align: center;
+          }
+
+          input[type=submint]:hover{
+            background-color: #8ea6b4;
+          }
+
+    </style>
+</head>
+<body>
+
+    <div style="background-color: #2b4450;" class="navbar navbar-expand-lg">
+        <span style="margin-left: 9%; font-size: 180%; margin-right: 22%; color: white;" class="navbar-band"><b>Blogy.</b></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navagation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul style="margin-right: 20%;" class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a style="color: #eeeeee;" class="nav-link" href="calisma2.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color: #eeeeee;" class="nav-link" href="#">Pages</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color: #eeeeee;" class="nav-link" href="#">Culture</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color: #eeeeee;" class="nav-link" href="#">Business</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color: #eeeeee;" class="nav-link" href="#">Politics</a>
+                </li>
+                
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+
+    </div>
+
+    <nav>
+        <p style="text-align: center; padding-top: 5%; padding-bottom: 5%; background-color: #2b4450; color: white; font-size: 200%;"><b>Blogy.</b></p>
+    </nav>
+
+    <article style="margin-top: 5%; margin-bottom: 5%;">
+
+        <div class="container col-md">
+            <div class="row">
+                <div class="col-sm-6">
+
+                </div>       
+       
+                <div1 class="col-sm-6">
+                    <form action="/action_page.php">
+                        <label for="ad">Ad</label>
+                        <input type="text" id="ad" name="adi" placeholder="Adınız..">
+        
+                        <label style="margin-left: 5%;" for="ad">Soyad</label>
+                        <input type="text" id="soyad" name="soyadi" placeholder="Soyadınız.."><br>
+        
+                        <label for="ad">Doğum Tarihi</label>
+                        <input type="date" id="dogum" name="dogumi" placeholder="Doğum Tarihiniz.."><br>
+        
+                        <label for="ad">E-posta</label>
+                        <input type="email" id="mail" name="maili" placeholder="E-postanız.."><br>
+        
+                        <label for="ad">Şifre</label>
+                        <input type="password" id="sifre" name="sifresi" placeholder="Parolanız.."><br>
+        
+                        <input style="margin-top: 5%;" type="submint" value="Submint">
+                    </form>
+                </div1>
+        
+            
+            </div>
+
+        <div>
+            
+    </article>
+
+    <footer style="background-color: #2b4450; padding-top: 6%;">
+        <div class="containe col-md">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p style="font-size: 110%;margin-left: 18%; color: white;"><b>ABOUT</b></p>
+                    <pre style="color: white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 95%; margin-left: 18%;">Far far away, behind the word mountains, far from
+the countries Vokalia and Consonantia, there live
+the blind texts.</pre>
+                    <p style="color: white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 110%; margin-left: 18%; padding-bottom: 30%; padding-top: 5%;"><b>SOCIAL</b></p>
+                </div>
+
+                <div class="col-sm-4">
+                    <p style="font-size: 110%;margin-left: 18%; color: white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>COMPANY</b></p>
+                    <pre style="font-size: 110%;margin-left: 18%; color: rgb(175, 175, 175); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">About us         Services
+Vision              Mission
+Terms               Privacy
+Partners           Business
+Careers            Blog
+FAQ                 Creative</pre>
+                </div>
+
+                <div class="col-sm-4">
+                    <p style="font-size: 110%; color: white;"><b>RECENT POST ENTRY</b></p>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div style="margin-bottom: 8%;" class="row">
+                                <div class="col-sm-4">
+                                    <img src="img_1_sq.jpg" width="85%">
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <pre style="color: white; font-size: 110%;padding-top: 3%; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">There’s a Cool New Way for
+Men to Wear Socks
+and Sandals</pre>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 8%;" class="row">
+                                <div class="col-sm-4">
+                                    <img src="img_2_sq.jpg" width="85%">
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <pre style="color: white; font-size: 110%;padding-top: 3%; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">There’s a Cool New Way for
+Men to Wear Socks
+and Sandals</pre>
+                                </div>
+                            </div> 
+                            
+                            <div style="margin-bottom: 8%;" class="row">
+                                <div class="col-sm-4">
+                                    <img src="img_3_sq.jpg" width="85%">
+                                </div>
+
+                                <div class="col-sm-8">
+                                    <pre style="color: white; font-size: 110%;padding-top: 3%; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">There’s a Cool New Way for
+Men to Wear Socks
+and Sandals</pre>
+                                </div>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p style="text-align: center; color: white; padding-bottom: 10%; padding-top: 5%;">Banu Dinç</p>
+            </div>
+    </footer>
+</body>
+</html>
